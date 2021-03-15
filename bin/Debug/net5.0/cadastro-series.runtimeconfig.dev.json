@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\arelvas\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\arelvas\\.nuget\\packages"
+    ]
+  }
+}
