@@ -24,7 +24,8 @@ namespace cadastro_series
             retorno += "Genero" + this.Genero + Environment.NewLine;
             retorno += "Titulo" + this.Titulo + Environment.NewLine;
             retorno += "Descrição" + this.Descricao + Environment.NewLine;
-            retorno += "Ano de Lançamento" + this.Ano;
+            retorno += "Ano de Lançamento" + this.Ano + Environment.NewLine;
+            retorno += "Excluido" + this.Excluido + Environment.NewLine;
             return retorno;
         }
 
@@ -37,6 +38,12 @@ namespace cadastro_series
         {
             return this.ID;
         }
+
+        public bool retornaEstado()
+        {
+            return this.Excluido;
+        }
+
 
         public bool Excluir()
         {
